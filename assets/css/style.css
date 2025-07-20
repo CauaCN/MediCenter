@@ -222,3 +222,101 @@ aside .widget_body_area{
 .appoi_cont a{
     text-decoration: none;
 }
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+.footer_menu{
+    display: flex;
+}
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+}
+.fm_1,
+.fm_2,
+.fm_3{
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+.fm_1 a,
+.fm_2 a,
+.fm_3 a{
+    text-decoration: none;
+    color:white;
+}
+.fm_1{
+    background-color: #39aae1;
+}
+.fm_2{
+    background-color: #0079c7;
+}
+.fm_3{
+    background-color: #2b4c99;
+}
+.footer_area{
+    display: flex;
+}
+.footer_areaitem{
+    flex: 1;
+    color: white;
+}
+footer .widget_title_text{
+    color: white;
+}
+.footer_copy{
+    flex: 1;
+    border-top: 1px solid #2c2c2c;
+    margin-top: 30px;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+}
+.mc_area{
+    display: flex;
+    flex-direction: column;
+    color: #5c5c5c;
+    font-size: 12px;
+}
+.mc_text{
+    margin-bottom: 30px;
+}
+.mc_cont{
+    display: flex;
+    justify-content: space-between;
+}
+.mc_cont a{
+    color: white;
+    text-decoration: none;
+}
+.lp_area{
+    display: flex;
+    flex-direction: column;
+}
+.lp_post{
+    margin-bottom: 20px;
+}
+.lp_text{
+    font-size: 12px;
+    color: white;
+}
+.lp_at{
+    font-size: 12px;
+    color: #2b4c99;
+    font-style:oblique;
+}
+.lt_area{
+    display: flex;
+    flex-direction: column;
+}
+.lt_area .lp_text{
+    font-size: 12px;
+    color: #5c5c5c
+}
+.lt_area .lp_text a{
+    color: white;
+    text-decoration: none;
+}
