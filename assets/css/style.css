@@ -171,6 +171,15 @@ article .news_posted_at{
     font-size: 14px;
     padding: 10px;
 }
+article .news_posted_at::after{
+    content: "";
+    display: block;
+    margin-top: 10px;
+    position: absolute;
+
+    border: 5px solid;
+    border-color: #2b4c99 transparent transparent transparent;
+}
 article .news_comments{
     background-color: #39aae1;
     color: white;
